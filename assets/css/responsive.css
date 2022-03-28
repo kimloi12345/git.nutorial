@@ -1,0 +1,83 @@
+/* pc  */
+@media (min-width: 1024px) {
+
+}
+/* tablet  */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+/* table and mobile */
+@media (max-width: 1023px) {
+    .btb{
+        padding: 16px 16px;
+
+    }
+    .name-li{
+        padding: 13px 8px;
+    }
+    .icon{
+        font-size: 35px;
+    }
+    .icon a{
+        margin: 0 10px;
+    }
+    .po-we a {
+        padding: 16px 0;
+        display: inline-block;
+    }
+    .contact-section {
+        line-height: 2;
+    }
+    #nav .sub-nav a{
+        line-height: 47.5px;
+    }
+}
+/* mobile  */
+@media (max-width: 740px) {
+    #header{
+        overflow: hidden;
+    }
+    #nav> li {
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav .sub-nav{
+        position: initial;
+        background-color: #000;
+    }
+    #nav .sub-nav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+        
+    }
+    .s-mt-16{
+        margin-top: 32px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .team-band{
+        width: 60%;
+    }
+
+    
+
+}
